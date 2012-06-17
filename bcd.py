@@ -27,7 +27,7 @@ Methods to translate to and from binary coded decimal
 I've no doubt that these are inefficient, although they do pass the tests
 currently, so I'm satisfied (for now, anyway).
 
-If you've got a patch, send it to dafydd@dafyddcrosby.com
+If you've got a patch, send it to dtcrsby@gmail.com
 
 TODO - deal with negative integers
 TODO - more efficient algorithms
