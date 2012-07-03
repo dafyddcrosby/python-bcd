@@ -1,6 +1,6 @@
 from distutils.core import setup
 setup(name='bcd',
-      version='0.1',
+      version='0.2',
       description='Library to handle binary-coded decimal conversion',
       author='Dafydd Crosby',
       author_email='dtcrsby@gmail.com',

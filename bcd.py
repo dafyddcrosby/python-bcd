@@ -69,16 +69,8 @@ def int_to_bcd(x):
     22
     """
     bcdstring = ''
-    intbinstring = bin(x).replace('0b', "")
-    while True:
-        nibble = intbinstring[-4:]
-        while len(nibble) < 4:
-            nibble = '0' + nibble
-        bcdstring = str(int(nibble, 2)) + bcdstring
-        if len(intbinstring) < 5:
-            # We've gotten the last nibble
-            break
-        else:
-            intbinstring = intbinstring[:-4]
+    while x > 0:
+        nibble = x % 16
+        bcdstring = str(nibble) + bcdstring
+        x = x >> 4
     return int(bcdstring)
-
