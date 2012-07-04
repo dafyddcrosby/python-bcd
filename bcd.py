@@ -72,5 +72,5 @@ def int_to_bcd(x):
     while x > 0:
         nibble = x % 16
         bcdstring = str(nibble) + bcdstring
-        x = x >> 4
+        x >>= 4
     return int(bcdstring)

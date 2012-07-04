@@ -1,9 +1,20 @@
 from distutils.core import setup
 setup(name='bcd',
-      version='0.2',
-      description='Library to handle binary-coded decimal conversion',
-      author='Dafydd Crosby',
-      author_email='dtcrsby@gmail.com',
-      url='https://github.com/dafyddcrosby/python-bcd',
-      py_modules=['bcd'],
-      )
+    version='0.3',
+    description='Library to handle binary-coded decimal conversion',
+    long_description=='Library to handle binary-coded decimal conversion',
+    author='Dafydd Crosby',
+    author_email='dtcrsby@gmail.com',
+    maintainer='Dafydd Crosby',
+    maintainer_email='dtcrsby@gmail.com',
+    url='https://github.com/dafyddcrosby/python-bcd',
+    py_modules=['bcd'],
+    classifiers=[
+        'Development Status :: 4 - Beta',
+        'Intended Audience :: Developers',
+        'License :: OSI Approved :: BSD License',
+        'Operating System :: OS Independent',
+        'Programming Language :: Python',
+        'Topic :: Software Development :: Libraries :: Python Modules',
+        ],
+    )
