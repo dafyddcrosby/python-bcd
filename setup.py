@@ -1,12 +1,12 @@
 from distutils.core import setup
 setup(name='bcd',
-    version='0.3',
+    version='0.4',
     description='Library to handle binary-coded decimal conversion',
     long_description=='Library to handle binary-coded decimal conversion',
     author='Dafydd Crosby',
-    author_email='dtcrsby@gmail.com',
+    author_email='dafydd@dafyddcrosby.com',
     maintainer='Dafydd Crosby',
-    maintainer_email='dtcrsby@gmail.com',
+    maintainer_email='dafydd@dafyddcrosby.com',
     url='https://github.com/dafyddcrosby/python-bcd',
     py_modules=['bcd'],
     classifiers=[
