@@ -2,7 +2,7 @@ from distutils.core import setup
 setup(name='bcd',
     version='0.4',
     description='Library to handle binary-coded decimal conversion',
-    long_description=='Library to handle binary-coded decimal conversion',
+    long_description='Library to handle binary-coded decimal conversion',
     author='Dafydd Crosby',
     author_email='dafydd@dafyddcrosby.com',
     maintainer='Dafydd Crosby',
