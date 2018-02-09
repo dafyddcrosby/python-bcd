@@ -68,11 +68,17 @@ def int_to_bcd(x):
 
     >>> int_to_bcd(34)
     22
+    
+    >>> int_to_bcd(0)
+    0
     """
 
     if x < 0:
         raise ValueError("Cannot be a negative integer")
-
+        
+    if x == 0:
+        return 0
+        
     bcdstring = ''
     while x > 0:
         nibble = x % 16
